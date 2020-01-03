@@ -1,0 +1,7 @@
+* My setup for setting color temperature
+
+Based on a C program found [[https://flak.tedunangst.com/post/sct-set-color-temperature][here]]. Modified to set the screen temperature according to the time of day, somewhat like f.lux or redshift.
+
+I recommend setting this up to run with a systemd timer or cron job.
+
+My Makefile copied the executable to my scripts directory, modify accordingly to place it somewhere in your path.
